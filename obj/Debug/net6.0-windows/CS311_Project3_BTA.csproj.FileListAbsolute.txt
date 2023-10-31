@@ -1,0 +1,17 @@
+C:\Users\btalb\source\repos\CS311_Project3_BTA\obj\Debug\net6.0-windows\CS311_Project3_BTA.frmBensPizzaPlace.resources
+C:\Users\btalb\source\repos\CS311_Project3_BTA\obj\Debug\net6.0-windows\CS311_Project3_BTA.Properties.Resources.resources
+C:\Users\btalb\source\repos\CS311_Project3_BTA\obj\Debug\net6.0-windows\CS311_Project3_BTA.csproj.GenerateResource.cache
+C:\Users\btalb\source\repos\CS311_Project3_BTA\obj\Debug\net6.0-windows\CS311_Project3_BTA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\btalb\source\repos\CS311_Project3_BTA\obj\Debug\net6.0-windows\CS311_Project3_BTA.AssemblyInfoInputs.cache
+C:\Users\btalb\source\repos\CS311_Project3_BTA\obj\Debug\net6.0-windows\CS311_Project3_BTA.AssemblyInfo.cs
+C:\Users\btalb\source\repos\CS311_Project3_BTA\obj\Debug\net6.0-windows\CS311_Project3_BTA.csproj.CoreCompileInputs.cache
+C:\Users\btalb\source\repos\CS311_Project3_BTA\bin\Debug\net6.0-windows\CS311_Project3_BTA.exe
+C:\Users\btalb\source\repos\CS311_Project3_BTA\bin\Debug\net6.0-windows\CS311_Project3_BTA.deps.json
+C:\Users\btalb\source\repos\CS311_Project3_BTA\bin\Debug\net6.0-windows\CS311_Project3_BTA.runtimeconfig.json
+C:\Users\btalb\source\repos\CS311_Project3_BTA\bin\Debug\net6.0-windows\CS311_Project3_BTA.dll
+C:\Users\btalb\source\repos\CS311_Project3_BTA\bin\Debug\net6.0-windows\CS311_Project3_BTA.pdb
+C:\Users\btalb\source\repos\CS311_Project3_BTA\obj\Debug\net6.0-windows\CS311_Project3_BTA.dll
+C:\Users\btalb\source\repos\CS311_Project3_BTA\obj\Debug\net6.0-windows\refint\CS311_Project3_BTA.dll
+C:\Users\btalb\source\repos\CS311_Project3_BTA\obj\Debug\net6.0-windows\CS311_Project3_BTA.pdb
+C:\Users\btalb\source\repos\CS311_Project3_BTA\obj\Debug\net6.0-windows\CS311_Project3_BTA.genruntimeconfig.cache
+C:\Users\btalb\source\repos\CS311_Project3_BTA\obj\Debug\net6.0-windows\ref\CS311_Project3_BTA.dll
