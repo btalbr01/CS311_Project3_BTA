@@ -125,7 +125,7 @@
             // 
             ckbExtraCheese.AutoSize = true;
             ckbExtraCheese.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            ckbExtraCheese.Location = new Point(302, 113);
+            ckbExtraCheese.Location = new Point(301, 111);
             ckbExtraCheese.Name = "ckbExtraCheese";
             ckbExtraCheese.Size = new Size(98, 19);
             ckbExtraCheese.TabIndex = 17;
@@ -136,7 +136,7 @@
             // 
             ckbJalapeno.AutoSize = true;
             ckbJalapeno.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            ckbJalapeno.Location = new Point(302, 89);
+            ckbJalapeno.Location = new Point(301, 86);
             ckbJalapeno.Name = "ckbJalapeno";
             ckbJalapeno.Size = new Size(74, 19);
             ckbJalapeno.TabIndex = 16;
@@ -158,7 +158,7 @@
             // 
             ckbBlackOlives.AutoSize = true;
             ckbBlackOlives.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            ckbBlackOlives.Location = new Point(183, 113);
+            ckbBlackOlives.Location = new Point(183, 111);
             ckbBlackOlives.Name = "ckbBlackOlives";
             ckbBlackOlives.Size = new Size(93, 19);
             ckbBlackOlives.TabIndex = 14;
@@ -169,7 +169,7 @@
             // 
             ckbGreenOlives.AutoSize = true;
             ckbGreenOlives.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            ckbGreenOlives.Location = new Point(183, 138);
+            ckbGreenOlives.Location = new Point(183, 136);
             ckbGreenOlives.Name = "ckbGreenOlives";
             ckbGreenOlives.Size = new Size(98, 19);
             ckbGreenOlives.TabIndex = 13;
@@ -180,7 +180,7 @@
             // 
             ckbGreenPepper.AutoSize = true;
             ckbGreenPepper.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            ckbGreenPepper.Location = new Point(183, 88);
+            ckbGreenPepper.Location = new Point(183, 86);
             ckbGreenPepper.Name = "ckbGreenPepper";
             ckbGreenPepper.Size = new Size(104, 19);
             ckbGreenPepper.TabIndex = 12;
@@ -224,7 +224,7 @@
             // 
             ckbSausage.AutoSize = true;
             ckbSausage.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
-            ckbSausage.Location = new Point(42, 86);
+            ckbSausage.Location = new Point(42, 90);
             ckbSausage.Name = "ckbSausage";
             ckbSausage.Size = new Size(71, 19);
             ckbSausage.TabIndex = 8;
@@ -236,7 +236,7 @@
             ckbPepperoni.AutoSize = true;
             ckbPepperoni.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             ckbPepperoni.ForeColor = SystemColors.ControlText;
-            ckbPepperoni.Location = new Point(43, 65);
+            ckbPepperoni.Location = new Point(42, 65);
             ckbPepperoni.Name = "ckbPepperoni";
             ckbPepperoni.Size = new Size(83, 19);
             ckbPepperoni.TabIndex = 7;

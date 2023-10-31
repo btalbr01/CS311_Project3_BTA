@@ -25,6 +25,7 @@ namespace CS311_Project3_BTA
             String size = cboSizes.GetItemText(cboSizes.SelectedItem);
             String crust = "";
             rtfOrderSummary.Text = "";
+
             if (cboSizes.Text == "Small")
                 subtotal = subtotal + 2;
             if (cboSizes.Text == "Medium")
@@ -77,7 +78,7 @@ namespace CS311_Project3_BTA
                 txtTax.Text = tax.ToString("C");
                 total = subtotal + tax;
                 txtTotal.Text = total.ToString("C");
-                rtfOrderSummary.Text = "You ordered a " + size + " pizza with " + crust +
+                rtfOrderSummary.SelectedText = "You ordered a " + size + " pizza with " + crust +
                     " crust and the following toppings:\n";
             }
 
@@ -104,11 +105,11 @@ namespace CS311_Project3_BTA
             if (ckbJalapeno.Checked == true)
                 rtfOrderSummary.SelectedText = "Jalapeno\n";
             if (ckbExtraCheese.Checked == true)
-                rtfOrderSummary.SelectedText  = "Extra Cheese\n";
+                rtfOrderSummary.SelectedText = "Extra Cheese\n";
             if (ckbMushroom.Checked == true)
-                rtfOrderSummary.SelectedText  = "Mushroom\n";
+                rtfOrderSummary.SelectedText = "Mushroom\n";
 
             rtfOrderSummary.SelectionBullet = false;
-        }    
+        }
     }
 }
