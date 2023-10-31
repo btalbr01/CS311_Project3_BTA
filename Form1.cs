@@ -4,6 +4,7 @@ namespace CS311_Project3_BTA
 {
     public partial class frmBensPizzaPlace : Form
     {
+        //tax in Kentucky is 6%.
         double tax = 1.06;
 
 
@@ -14,18 +15,25 @@ namespace CS311_Project3_BTA
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
+            //Button click calls Summarize() to process the order.
             Summarize();
         }
 
         private void Summarize()
         {
+            //variables to handle the subtotal, taxes and total for the order.
             float subtotal = 0;
             double tax;
             double total;
+
+            //variables to handle pizza size and crust type.
             String size = cboSizes.GetItemText(cboSizes.SelectedItem);
             String crust = "";
+
+            //clears the Order Summary box every time the order is calculated.         
             rtfOrderSummary.Text = "";
 
+            //if statements to determine pizza size and cost for that size.
             if (cboSizes.Text == "Small")
                 subtotal = subtotal + 2;
             if (cboSizes.Text == "Medium")
@@ -36,6 +44,9 @@ namespace CS311_Project3_BTA
                 subtotal = subtotal + 15;
             if (cboSizes.Text == "Ginormous")
                 subtotal = subtotal + 20;
+
+            //if statements to determine what toppings are on the pizza and 
+            //add their cost to the subtotal.
             if (ckbPepperoni.Checked == true)
                 subtotal = subtotal + 2;
             if (ckbSausage.Checked == true)
@@ -61,6 +72,7 @@ namespace CS311_Project3_BTA
             if (ckbMushroom.Checked == true)
                 subtotal = subtotal + 1;
 
+            //sets crust variable to crust type picked by user.
             if (rdoThin.Checked)
                 crust = "Thin";
             else if (rdoThick.Checked)
@@ -68,9 +80,12 @@ namespace CS311_Project3_BTA
             else if (rdoRegular.Checked)
                 crust = "Regular";
 
+            //if crust type or size not chosen, prompts user to choose them.
             if (crust == "" || size == "")
                 rtfOrderSummary.Text = "Please choose a size or crust";
 
+            //if crust and size chosen, prints subtotal, tax and total to
+            //their text boxes as dollar amounts.
             else
             {
                 txtSubtotal.Text = subtotal.ToString("C");
@@ -82,8 +97,11 @@ namespace CS311_Project3_BTA
                     " crust and the following toppings:\n";
             }
 
+            //sets bulleted points for the toppings.
             rtfOrderSummary.SelectionBullet = true;
 
+            //if statements to determine what topings were chosen
+            //and display them as bulleted points.
             if (ckbPepperoni.Checked == true)
                 rtfOrderSummary.SelectedText = "Pepperoni\n";
             if (ckbSausage.Checked == true)
@@ -109,6 +127,7 @@ namespace CS311_Project3_BTA
             if (ckbMushroom.Checked == true)
                 rtfOrderSummary.SelectedText = "Mushroom\n";
 
+            //ends bullet point formatting.
             rtfOrderSummary.SelectionBullet = false;
         }
     }
